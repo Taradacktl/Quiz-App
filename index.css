@@ -1,0 +1,111 @@
+body {
+
+  background: url('https://www.carriermanagement.com/assets/smart-chicken-resized.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  font-family: 'Roboto Condensed';
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+img {
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul li {
+  list-style: none;
+
+}
+
+.answerBox {
+  list-style: none;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+.box {
+  text-align: center;
+}
+
+.headline {
+  background-color: #FAD7A0;
+}
+
+.quizPage {
+  background-color: rgba(255, 255, 255, .5);
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  vertical-align: middle;
+  transform: scale(1.5);
+  outline: none;
+}
+
+
+label {
+  cursor: pointer;
+  font-size: 30px;
+  display: list-item;
+}
+
+.start, .submitButton, .continue, .restart  {
+  cursor: pointer;
+  font-size: 30px;
+  background: #FBF8EF;
+  font-family: 'Roboto Condensed';
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.status {
+  font-size: 20px;
+  background-color: #FCF3CF;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainContainer {
+    margin: auto;
+    max-width: 75%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .mainContainer {
+  width: 95%;
+  }
+  
+  .headline h1 {
+    font-size: 30px;
+  }
+  
+  .quizPage h1 {
+    font-size: 30px
+  }
+  
+  .quizPage h2 {
+    font-size: 25px;
+  }
+}
