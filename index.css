@@ -104,7 +104,16 @@ label {
   .quizPage h1 {
     font-size: 30px
   }
+  @media only screen and (max-width: 320px) {
   
+  .quizPage h1, .submitButton, .continue, .restart, .start {
+  font-size: 20px;
+ }
+ label {
+   font-size: 20px;
+ }
+}
+
   .quizPage h2 {
     font-size: 25px;
   }
