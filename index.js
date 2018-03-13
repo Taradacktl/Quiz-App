@@ -5,7 +5,7 @@ const questions = [
 		answers: ['4 months', '6 months', '8 months', '12 months'],
 	},
 	{
-		title: 'What colors can egg shells NOT be?',
+		title: 'What colors can egg shells NOT be (edited) ?',
 		correctAnswer: 'red',
 		answers: ['brown', 'blue', 'white', 'red'],
 	},
